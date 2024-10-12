@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBMCI One Query Response</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>DBMCI One</h1>
+    </header>
+    <main>
+        <h2>Enter Your Query</h2>
+        <form id="query-form">
+            <textarea id="user-query" rows="4" placeholder="Type your question here..." required></textarea>
+            <button type="submit">Generate Response</button>
+        </form>
+        <div id="response-container">
+            <p id="response"></p>
+            <button id="copy-button" style="display:none;">Copy Response</button>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
